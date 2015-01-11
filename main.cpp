@@ -29,7 +29,7 @@ int main(int argc, char* argv[]){
 /*********************************************************
 **  Plot
 **********************************************************/
-	glutInit(&argc, argv);
+    glutInit(&argc, argv);
     glutCreateWindow(100,100,600,400);
     glutDisplayFunc( display );
     glutReshapeFunc( reshape );
